@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 
 Project("{418D8681-B964-B0A7-7232-5E03A076BB26}") = "BIM", "Assembly-CSharp-firstpass.csproj", "{F90D4010-C944-4252-9D5C-0F4564B6343B}"
 EndProject
+Project("{418D8681-B964-B0A7-7232-5E03A076BB26}") = "BIM", "Assembly-CSharp.csproj", "{893E683B-2040-5EC5-6A66-97FC9733DF6F}"
+EndProject
 Project("{418D8681-B964-B0A7-7232-5E03A076BB26}") = "BIM", "Assembly-UnityScript-firstpass.unityproj", "{2098AC62-C15A-AC3E-79D9-54432B562DFD}"
 EndProject
 Global
@@ -15,6 +17,10 @@ Global
 		{F90D4010-C944-4252-9D5C-0F4564B6343B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F90D4010-C944-4252-9D5C-0F4564B6343B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F90D4010-C944-4252-9D5C-0F4564B6343B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{893E683B-2040-5EC5-6A66-97FC9733DF6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{893E683B-2040-5EC5-6A66-97FC9733DF6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{893E683B-2040-5EC5-6A66-97FC9733DF6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{893E683B-2040-5EC5-6A66-97FC9733DF6F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2098AC62-C15A-AC3E-79D9-54432B562DFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2098AC62-C15A-AC3E-79D9-54432B562DFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2098AC62-C15A-AC3E-79D9-54432B562DFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -23,7 +29,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
+						GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
@@ -42,4 +48,5 @@ Global
 		$3.inheritsScope = text/plain
 		$3.scope = text/plain
 	EndGlobalSection
+
 EndGlobal
